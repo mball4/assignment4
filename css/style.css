@@ -3,7 +3,9 @@ body {
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.91);
+    height: 100vh;
 }
+
 
 .h1top {
     text-transform: uppercase;
@@ -33,7 +35,7 @@ body {
 }
 
 .logo {
-    height: 10vh;
+    height: 100px;
 }
 
 .class {
@@ -61,4 +63,7 @@ a:hover {
 .email {
     font-family: cursive;
 
+}
+.contact-form {
+    color: #ffffff
 }
