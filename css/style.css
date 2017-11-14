@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(#c12ff6, rgb(244, 198, 0));
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.91);
+}
+
+.h1top {
+    text-transform: uppercase;
+    font-family: cursive;
+    text-align: center
+}
+
+.aboutme {
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.figcapclass {
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.86);
+    width: 100%;
+    margin-left: 15%;
+}
+
+.reasons {
+    font-family: cursive;
+}
+
+.list {
+    font-family: cursive;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.class {
+    text-transform: lowercase;
+    font-family: cursive;
+
+}
+
+img {
+    padding: 0px, 10px, 0px, 0px;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+
+
+}
+
+.email {
+    font-family: cursive;
+
+}
