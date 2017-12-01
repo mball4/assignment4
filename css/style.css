@@ -6,6 +6,11 @@ body {
     height: 100vh;
 }
 
+.headrecords {
+    font-family: cursive;
+    text-transform: lowercase;
+}
+
 th {
     color: #fff;
     padding-right: 10px;
@@ -60,10 +65,14 @@ input#reset {
 
 }
 
+
 img {
     padding: 0px, 10px, 0px, 0px;
 }
 
+.celebrate {
+    float:left;
+}
 a {
     color: white;
     font-family: cursive;
