@@ -42,12 +42,12 @@
 </head>
 
 <body>
-    
+
     <figure>
         <img class="goalie" src="images/goalie.jpg" alt="goalie" width="250">
     </figure>
-    
-    
+
+
     <table>
         <tr>
             <td colspan="6">
@@ -99,15 +99,25 @@
 
     </figure>
 
-   
-    <form method="get">
-        <h1 class="email"> To learn more about Nazareth Athletics, enter your email below!</h1>
-        Email: <input type="text" size="50" name="email" id="email" maxlength="50">
-        <br>
-        <br>
-        <input type="submit" value="Sign Me Up"> <input type="reset">
-    </form>
 
+    <h1 class="email"> To learn more about Nazareth Athletics, enter your email below!</h1>
+
+    <div class="contact-form">
+
+        <form method="get">
+            <label>First Name: <input type="text" name="fname" id="fname"></label><br><br>
+            <label> Last Name: <input type="text" name="lname" id="lname"></label> <br><br>
+            <label> E-mail: <input type="text" name="email" id="email"></label><br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Submit"> <input type="reset">
+
+
+
+
+        </form>
+
+    </div>
 
 </body>
 
